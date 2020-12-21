@@ -17,7 +17,7 @@ def main(model_type='resnet', n_epochs=20, lr=0.0005, batch_size=32):
     """ The main function. """
 
     #set file paths
-    train_img_path = '/Users/emmarydholm/Documents/code/melanoma_classification/data_added_melanoma/train/train_resized'#'/data/train_resized/' #path to resized train image
+    train_img_path = '/Users/rita/Documents/code/melanoma_classification/data_added_melanoma/train/train_resized'#'/data/train_resized/' #path to resized train image
     test_img_path = '/Users/emmarydholm/Documents/code/melanoma_classification/data_added_melanoma/test/test_resized'#'/data/test_resized/' #path to resized train image
     data_train = pd.read_csv('data/train_processed.csv') #path to processed csv file for train data
     data_test = pd.read_csv('data/test_processed.csv') #path to processed csv file for test data
